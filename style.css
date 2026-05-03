@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: 'Times New Roman', serif; /* Matching the card's classic look */
+    background-color: #f4f4f4;
+}
+
+/* The Brown Sidebar from the card */
+.sidebar {
+    width: 120px;
+    background-color: #a67c52;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    color: #a67c52;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h1 span { color: #5d4037; font-weight: normal; }
+
+.tagline {
+    color: #2e7d32; /* The green from the card */
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.content-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+ul { list-style-type: '▶ '; color: #333; }
+ul li { margin-bottom: 10px; font-size: 1.1rem; }
+
+.discounts {
+    color: #a67c52;
+    font-style: italic;
+    text-align: right;
+}
+
+/* The photo section you asked for */
+.photo-gallery img {
+    width: 100%;
+    max-width: 500px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+.contact-bar {
+    margin-top: 50px;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-bar a { color: white; text-decoration: none; }
