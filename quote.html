@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote | H&H Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar"><div class="logo-circle">H & H</div></div>
+
+<main>
+    <div class="quote-form-container">
+        <h1>Request <span>Quote</span></h1>
+        <form action="https://formspree.io/f/xvzlzabb" method="POST">
+            <label>Full Name</label>
+            <input type="text" name="name" required>
+
+            <label>Email Address</label>
+            <input type="email" name="email" required>
+
+            <label>Phone Number</label>
+            <input type="tel" name="phone" required>
+
+            <label>Select Service</label>
+            <select name="service">
+                <option>Car Wash</option>
+                <option>Powerwashing</option>
+                <option>Landscaping/Mulch</option>
+                <option>Painting</option>
+            </select>
+
+            <label>Details</label>
+            <textarea name="message" rows="5"></textarea>
+
+            <button type="submit" class="submit-btn">SEND REQUEST</button>
+        </form>
+        <br>
+        <a href="index.html" style="color: #666; text-decoration: none;">← Cancel and go back</a>
+    </div>
+</main>
+</body>
+</html>
